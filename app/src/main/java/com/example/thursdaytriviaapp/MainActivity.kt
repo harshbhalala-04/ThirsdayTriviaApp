@@ -15,6 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.thursdaytriviaapp.ui.theme.ThursdayTriviaAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -42,11 +43,11 @@ fun HomePage() {
             contentDescription = null
         )
         Spacer(modifier = Modifier.height(15.dp))
-        Text(text="Harsh Bhalala", color = Color(56, 112, 179, 255))
+        Text(text="Harsh Bhalala",fontSize = 30.sp, color = Color(56, 112, 179, 255))
         Spacer(modifier = Modifier.height(15.dp))
-        Text(text = "❤️")
+        Text(text = "❤️", fontSize = 30.sp)
         Spacer(modifier = Modifier.height(15.dp))
-        Text(text = "Jetpack Compose", color = Color(8, 48, 66, 255))
+        Text(text = "Jetpack Compose",fontSize = 30.sp, color = Color(8, 48, 66, 255))
     }
 }
 
